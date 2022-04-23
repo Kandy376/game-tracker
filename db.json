@@ -1,0 +1,22 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "Valorant",
+      "image": "images/Valorant.jpg",
+      "avatar": true
+    },
+    {
+      "id": 2,
+      "title": "Fortnite",
+      "image": "images/Fortnite.jpg",
+      "avatar": false
+    },
+    {
+      "id": 3,
+      "title": "Apex Legends",
+      "image": "images/Apex-Legends.jpg",
+      "avatar": true
+    }
+  ]
+}
