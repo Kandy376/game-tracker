@@ -10,18 +10,17 @@ import Main from './components/Main/Main';
 function App() {
 const [games, setGames]=useState([])
 useEffect(()=>{
-  axios.get('http://localhost:3001/games').then(response => {
+  axios.get('http://localhost:3001/api/games').then(response => {
     setGames(response.data)
   })
 },[])
 console.log("games", games)
-const item=games?games[0].title:"nothing to show"
 
   return (
     <div className="App">
       <Navbar/> 
       <Main/>
-      <div>{item}</div>
+      <div></div>
     </div>
   );
 }
